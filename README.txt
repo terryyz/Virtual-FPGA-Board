@@ -3,7 +3,6 @@ VFPGA V2.0
 
 Usage:
 To run, ensure you have installed python3 (https://www.python.org/downloads/). Install version 3.7.6 (scroll down after selecting OS).
-Ensure you have made a constraints file (.ucf) as per lab03. It must have the same prefix (ie lab4.sch, lab4.ucf)
 Ensure that in XILINX ISE you have Synthesized, Implemented and Generated the Programming File with NO errors or serious warnings. VFPGA will most likely freeze if you give it a non-functional schematic.
 Additionally ensure that ALL inputs to your logic blocks are NOT floating i.e. they are all connected to something. If you are not using an input tie it to VCC or GND as appropriate.
 Navigate to where you extracted the folder and double click VFPGA.py. A terminal will come up, and you will have to wait 10-20 seconds for it to load. When it has loaded you will see a replica FPGA board appear.
